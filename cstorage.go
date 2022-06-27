@@ -7,10 +7,6 @@ import (
 	"time"
 )
 
-func main() {
-	println("hello this is cache-storage package")
-}
-
 // CStorage structure is struct for holding data structure and misc of cache storage.
 // CStorage uses hash table, and doubly linked list for eviction policy.
 // - Hash Table: since CStorage is key-value store, hash table should be good choice since it has O(logN) to insert and search.
