@@ -1,0 +1,5 @@
+# build output
+cstorage
+
+# cached file
+go.sum
